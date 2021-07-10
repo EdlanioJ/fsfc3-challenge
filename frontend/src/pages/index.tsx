@@ -1,8 +1,11 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import styles from '../styles/Home.module.css';
 import { RouteProps } from '../utils/route';
+
+type HomeProps = {
+  routes: RouteProps[];
+};
 
 export default function Home() {
   const [routes, setRoutes] = useState<RouteProps[]>([]);
