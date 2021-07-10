@@ -1,0 +1,29 @@
+.container {
+  min-height: 100vh;
+  height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container table {  
+  font-family:sans-serif;
+}
+
+
+
+.container table tbody td {
+
+  padding:.25em .5em;
+  text-align:left;
+  background-color:#eee;    
+}
+.container table thead th {
+  height: 56px;
+  padding:.25em .5em;
+  text-align:left;
+  background-color:#32417b;
+  color:#fff;
+}
